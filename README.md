@@ -93,4 +93,3 @@ Take a look at `Firmware/include/board_*.h` for the details of what board suppor
 ## Resources
 
 SiLabs have an extensive collection of documentation, application notes and sample code available online.  Start at the [Si1000 product page](http://www.silabs.com/products/wireless/wirelessmcu/Pages/Si1000.aspx)
-# SiK MSP - Firmware for SiLabs Si1000 ISM radios with Multiwii Serial Protocol optimisation
