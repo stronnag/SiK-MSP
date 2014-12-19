@@ -73,10 +73,10 @@ public struct MSP_RADIO
         pbuf[2] = '>';
         pbuf[3] = 9;
         pbuf[4] = 199;
-        pbuf[5] = (rxerr >> 8); // rxerr
-        pbuf[6] = (rxerr & 0xff); // rxerr
-        pbuf[7] = (fixed >> 8); // fixederr
-        pbuf[8] = (fixed & 0xff); // fixederr
+        pbuf[5] = (rxerr & 0xff); // rxerr
+        pbuf[6] = (rxerr >> 8); // rxerr
+        pbuf[7] = (fixed & 0xff); // fixederr
+        pbuf[8] = (fixed >> 8); // fixederr
         pbuf[9] = statistics.average_rssi;
         pbuf[10] = remote_statistics.average_rssi;
         pbuf[11] = serial_read_space();
