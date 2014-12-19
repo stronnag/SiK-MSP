@@ -27,6 +27,8 @@ struct __attribute__ ((__packed__))  _msp_radio
 typedef struct _msp_radio MSP_RADIO;
 ````
 
+Note that for the python configuration and upload tools, python 2 is required.
+
 # Original documenation:
 
 For user documentation please see this site:
