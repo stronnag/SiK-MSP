@@ -27,7 +27,14 @@ struct __attribute__ ((__packed__))  _msp_radio
 typedef struct _msp_radio MSP_RADIO;
 ````
 
-Note that for the python configuration and upload tools, python 2 is required.
+Note that for the python configuration and upload tools, python 2 is
+required.
+
+The modified firmware is identified by -MSP after the version, e.g.
+
+````
+SiK 1.9-MSP on HM-TRP
+````
 
 # Original documenation:
 
