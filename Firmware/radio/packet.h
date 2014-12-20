@@ -67,9 +67,8 @@ extern void packet_set_serial_speed(uint16_t speed);
 /// inject a packet to be sent when possible
 /// @param buf			buffer to send
 /// @param len			number of bytes
-///			
+///
 extern void packet_inject(__xdata uint8_t * __pdata buf, __pdata uint8_t len);
 
-// mavlink 1.0 marker
-#define MAVLINK10_STX 254
-
+// MSP marker
+#define MAVLINK10_STX '$'
