@@ -27,8 +27,7 @@ struct __attribute__ ((__packed__))  _msp_radio
 typedef struct _msp_radio MSP_RADIO;
 ````
 
-Compiled firmware is provided in the Firmware/dst directory.
-
+As a convenience to legacy opertaing system users, compiled firmware is provided in the Firmware/dst directory.
 
 # Original documenation:
 
